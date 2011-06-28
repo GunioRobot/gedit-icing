@@ -39,7 +39,7 @@
  **Author:** Uwe Jugel ([@ubunatic](http://twitter.com/#!/ubunatic)) |
  **Source:** [http://open-juve.blogspot.com/2011/04/make-jslint-working-nicely-with-gedit.html](http://open-juve.blogspot.com/2011/04/make-jslint-working-nicely-with-gedit.html)
 
- **Description:** Run JSLint using the hotkey `CTRL+J` in gedit.
+ **Description:** Run JSLint using the hotkey `CTRL+J` in gedit.  Should we make this into a repo called `gedit-jslint`?
 
  1. Install Rhino JavaScript command line engine and download Rhino version of JSLint:
 
@@ -49,6 +49,27 @@
  2. Enable the External Tools plugin:
  
     ![Enable the External Tools plugin](http://i.imgur.com/HuOOy.png)
+    
+ 3. Add the following entry under `Manage External Tools` in `Tools`:
+ 
+        #!/bin/sh
+        echo "/*jslint onevar: true, undef: true, newcap: true, nomen: true, regexp: true, plusplus: true, bitwise: true, browser: true, maxerr: 50, indent: 4, white: false */" > /tmp/jslint-me.js
+        cat $1 >> /tmp/jslint-me.js
+        result=$(js $HOME/.gnome2/gedit/plugins/jslint-rhino.js /tmp/jslint-me.js)
+        rm /tmp/jslint-me.js
+        js $HOME/.gnome2/gedit/plugins/jslint-rhino-text-replace.js "$GEDIT_CURRENT_DOCUMENT_NAME" $result > /dev/stdout
+
+ 4. Select a shortcut (e.g. `CTRL+J`)
+  
+ 5. Set `Save: Nothing` and `Input: Current Selection (default to document)`
+  
+ 6. Copy `jslint-rhino-text-replace.js` to gedit's plugin folder:
+ 
+        wget https://github.com/niftylettuce/gedit-icing/raw/master/jslint-rhino-text-replace.js $HOME/.gnome2/gedit/plugins/jslint-rhino-text-replace.js
+
+ 7. Use the hotkey `CTRL+J` and view `Bottom Pane`'s `Shell Output` window to achieve JS perfection.
+ 
+    ![Achieve JS perfection](http://1.bp.blogspot.com/-aMOhOhPAFbA/TZca6h19kkI/AAAAAAAAAKs/coFncF__INA/s1600/gedit-jslint.png)
 
 ## Markup Preview
 
