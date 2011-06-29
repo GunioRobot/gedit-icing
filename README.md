@@ -31,7 +31,7 @@
  
  This is much more enjoyable than having gedit recognize your `.styl` files as Apache Confs!
 
-## gedit-gists
+## <a name="gedit-gists">gedit-gists</a>
 
  **Author:** Nick Baugh ([@niftylettuce](http://twitter.com/#!/niftylettuce)) |
  **Source:** [https://github.com/rocketraman/gist.sh](https://github.com/rocketraman/gist.sh)
