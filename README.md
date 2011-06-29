@@ -2,15 +2,15 @@
 
  Because icing on gedit tastes so much better.
  
- * styl.lang
- * gedit-gists
- * Inconsolata
- * GMate
- * JSLint
- * Markup Preview
- * Zoom
+ * <a href="#styl.lang">styl.lang</a>
+ * <a href="#gedit-gists">gedit-gists</a>
+ * <a href="#Inconsolata">Inconsolata</a>
+ * <a href="#GMate">GMate</a>
+ * <a href="#JSLint">JSLint</a>
+ * <a href="#Markup%20Preview">Markup Preview</a>
+ * <a href="#Zoom">Zoom</a>
  
-## styl.lang
+## <a name="styl.lang">styl.lang</a>
 
  My fork (currently pending a pull to master) of [Stylus](https://github.com/LearnBoost/stylus) has a tmp version of `styl.lang` for [GtkSourceView](http://live.gnome.org/GtkSourceView), based off [Yanekk](https://github.com/yanekk)'s [work](https://github.com/gmate/gmate/blob/master/lang-specs/scss.lang) on `scss.lang`.
  
@@ -65,7 +65,7 @@
  
  7. If you would like to modify things (e.g. public vs. private gists) please view the Source link above.
 
-## Inconsolata
+## <a name="Inconsolata">Inconsolata</a>
 
  **Author:** Raph Linus ([@raphlinus](http://twitter.com/#!/raphlinus)) |
  **Source:** [http://www.levien.com/type/myfonts/inconsolata.html](http://www.levien.com/type/myfonts/inconsolata.html)
@@ -78,7 +78,7 @@
     
  2. Set `Editor Font` to **Inconsolata Medium 13** under the `Fonts & Colors` tab in `gedit Preferences`.
 
-## GMate
+## <a name="GMate">GMate</a>
 
  **Authors:** Andrey "A.I." Sitnik ([@andrey_sitnik](http://twitter.com/#!/andrey_sitnik)),
  Andrew Liu ([@WyndWarrior](http://twitter.com/#!/WyndWarrior)), and Sergey Rublev ([@narmaru](http://twitter.com/#!/narmaru)) |
@@ -88,7 +88,7 @@
  
  Visit link for more information and setup.
 
-## JSLint
+## <a name="JSLint">JSLint</a>
 
  **Author:** Uwe Jugel ([@ubunatic](http://twitter.com/#!/ubunatic)) |
  **Source:** [http://open-juve.blogspot.com/2011/04/make-jslint-working-nicely-with-gedit.html](http://open-juve.blogspot.com/2011/04/make-jslint-working-nicely-with-gedit.html)
@@ -125,7 +125,7 @@
  
     ![Achieve JS perfection](http://1.bp.blogspot.com/-aMOhOhPAFbA/TZca6h19kkI/AAAAAAAAAKs/coFncF__INA/s1600/gedit-jslint.png)
 
-## Markup Preview
+## <a name="Markup%20Preview">Markup Preview</a>
 
  **Authors:** Isman Firmansyah ([@iromli](http://twitter.com/#!/iromli))
  and Mihail Szabolcs ([@theicebreaker](http://twitter.com/#!/theicebreaker)) |
@@ -150,7 +150,7 @@
 
     ![Activate the Markup Preview plugin](http://i.imgur.com/zMAbr.png)
     
-## Zoom
+## <a name="Zoom">Zoom</a>
 
  **Author:** Christian Luginb&uuml;hl | **Source:** [https://github.com/dinkel/gedit-zoom](https://github.com/dinkel/gedit-zoom)
   
