@@ -2,20 +2,41 @@
 
  Because icing on gedit tastes so much better.
  
+ * styl.lang
+ * gedit-gists
  * Inconsolata
  * GMate
  * JSLint
  * Markup Preview
  * Zoom
  
- **Wishlist:**
+## styl.lang
+
+ My fork (currently pending a pull to master) of [Stylus](https://github.com/LearnBoost/stylus) has a tmp version of `styl.lang` for [GtkSourceView](http://live.gnome.org/GtkSourceView), based off [Yanekk](https://github.com/yanekk)'s [work](https://github.com/gmate/gmate/blob/master/lang-specs/scss.lang) on `scss.lang`.
  
- * Stylus language definition for [GtkSourceView](http://live.gnome.org/Gedit/NewLanguage)
+ ![Stylus Language Specification for GtkSourceView](http://i.imgur.com/uBppL.png))
+
+ This is a start and provides a basic [language spec](http://live.gnome.org/Gedit/NewLanguage) for GtkSourceView editors such as [gedit](http://projects.gnome.org/gedit/).
+
+ **Installation Steps**
+ 
+ Download `styl.lang` to your local `language-specs` folder:
+ 
+    wget https://raw.github.com/niftylettuce/stylus/master/editors/gedit/styl.lang ~/.local/share/gtksourceview-2.0/language-specs/styl.lang
+
+ Update the mime database and enjoy Stylus syntax in gedit!
+ 
+    cd ~/.local/share
+    update-mime-database mime
+ 
+ This is much more enjoyable than having gedit recognize your `.styl` files as Apache Confs!
 
 ## gedit-gists
 
  **Author:** Nick Baugh ([@niftylettuce](http://twitter.com/#!/niftylettuce)) |
  **Source:** [https://github.com/rocketraman/gist.sh](https://github.com/rocketraman/gist.sh)
+
+ **Description:** Now you can Gist straight from gedit!  Default hotkey is `CTRL+SHIFT+G`.
 
  1. Install `xclip` for clipboard copying:
 
