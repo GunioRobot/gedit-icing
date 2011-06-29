@@ -6,6 +6,7 @@
  * GMate
  * JSLint
  * Markup Preview
+ * Zoom
  
  **Wishlist:**
  
@@ -95,3 +96,18 @@
  3. Activate the Markup Preview plugin 
 
     ![Activate the Markup Preview plugin](http://i.imgur.com/zMAbr.png)
+    
+## Zoom
+
+ **Author:** Christian Luginb&uuml;hl | **Source:** [https://github.com/dinkel/gedit-zoom](https://github.com/dinkel/gedit-zoom)
+  
+ **Description:** Gedit plugin that adds the ability to change the font size (e.g. for presentations).
+  
+ 1. Clone the repository and run make target.
+  
+          git clone git://github.com/dinkel/gedit-zoom.git $HOME/.gnome2/gedit/plugins/gedit-zoom
+          cd $HOME/.gnome2/gedit/plugins/gedit-zoom
+          make install-dev
+      
+ 2. Enable the plugin through `Edit -> Preferences -> Plugins` and make your next presentation kickin'.
+ 
