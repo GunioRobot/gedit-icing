@@ -10,8 +10,7 @@
  
  **Wishlist:**
  
- * [gist4gedit](https://github.com/niftylettuce/nifty-web-requests#gist4gedit)
- * Stylus language definition for GtkSourceView
+ * Stylus language definition for [GtkSourceView](http://live.gnome.org/Gedit/NewLanguage)
 
 ## gedit-gists
 
