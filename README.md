@@ -53,7 +53,7 @@ Thanks to [@creationix](https://github.com/creationix) for this!
   
  2. Install `gist.sh`:
   
-        curl http://github.com/gmarik/gist.sh/raw/master/gist.sh > gist.sh
+        curl https://raw.github.com/gmarik/gist.sh/master/gist.sh > gist.sh
         chmod 755 gist.sh
         sudo mv gist.sh /usr/local/bin/ 
         
