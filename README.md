@@ -2,14 +2,23 @@
 
  Because icing on gedit tastes so much better.
  
+ * <a href="#json.lang">json.lang</a>
  * <a href="#styl.lang">styl.lang</a>
  * <a href="#gedit-gists">gedit-gists</a>
  * <a href="#Inconsolata">Inconsolata</a>
  * <a href="#GMate">GMate</a>
  * <a href="#JSLint">JSLint</a>
+ * <a href="#JSHint">JSHint (TODO: [I used jshint/external tools from npm :{ )</a>
  * <a href="#Markup%20Preview">Markup Preview</a>
  * <a href="#Zoom">Zoom</a>
- 
+
+## <a name="json.lang" href="#json.lang">json.lang</a>
+
+Thanks to [@creationix](https://github.com/creationix) for this!
+
+    wget https://github.com/creationix/gedit-stuff/raw/master/lang-specs/json.lang \
+    -O ~/.local/share/gtksourceview-2.0/language-specs/json.lang
+
 ## <a name="styl.lang" href="#styl.lang">styl.lang</a>
 
  My fork (currently pending a pull to master) of [Stylus](https://github.com/LearnBoost/stylus) has a tmp version of `styl.lang` for [GtkSourceView](http://live.gnome.org/GtkSourceView), based off [Yanekk](https://github.com/yanekk)'s [work](https://github.com/gmate/gmate/blob/master/lang-specs/scss.lang) on `scss.lang`.
