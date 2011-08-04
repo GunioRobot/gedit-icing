@@ -20,6 +20,13 @@ Thanks to [@logicplace](https://github.com/logicplace)'s original [Gist](https:/
     wget https://raw.github.com/niftylettuce/gedit-icing/master/ejs.lang \
     -O ~/.local/share/gtksourceview-2.0/language-specs/ejs.lang
 
+ Update the mime database and enjoy EJS syntax in gedit!
+ 
+    cd ~/.local/share
+    update-mime-database mime
+ 
+ This is much more enjoyable than having gedit recognize your `.ejs` files as plain ol' HTML!
+
 ## <a name="json.lang" href="#json.lang">json.lang</a>
 
 Thanks to [@creationix](https://github.com/creationix).
