@@ -2,6 +2,7 @@
 
  Because icing on gedit tastes so much better.
  
+ * <a href="#ejs.lang">ejs.lang</a>
  * <a href="#json.lang">json.lang</a>
  * <a href="#styl.lang">styl.lang</a>
  * <a href="#gedit-gists">gedit-gists</a>
@@ -12,9 +13,16 @@
  * <a href="#Markup%20Preview">Markup Preview</a>
  * <a href="#Zoom">Zoom</a>
 
+## <a name="ejs.lang" href="#ejs.lang">ejs.lang</a>
+
+Thanks to [@logicplace](https://github.com/logicplace)'s original [Gist](https://gist.github.com/949556).
+
+    wget https://raw.github.com/niftylettuce/gedit-icing/master/ejs.lang \
+    -O ~/.local/share/gtksourceview-2.0/language-specs/ejs.lang
+
 ## <a name="json.lang" href="#json.lang">json.lang</a>
 
-Thanks to [@creationix](https://github.com/creationix) for this!
+Thanks to [@creationix](https://github.com/creationix).
 
     wget https://github.com/creationix/gedit-stuff/raw/master/lang-specs/json.lang \
     -O ~/.local/share/gtksourceview-2.0/language-specs/json.lang
