@@ -3,6 +3,7 @@
  Because icing on gedit tastes so much better.
  
  * <a href="#split-view">Split View</a>
+ * <a href="#ejs.lang">ejs.lang</a>
  * <a href="#json.lang">json.lang</a>
  * <a href="#styl.lang">styl.lang</a>
  * <a href="#gedit-gists">gedit-gists</a>
@@ -17,9 +18,23 @@
 
 Visit [this site](http://eldapo.lembobrothers.com/2008/07/16/gedit-plugins-split-screen/) to learn more and for the download link.
 
+## <a name="ejs.lang" href="#ejs.lang">ejs.lang</a>
+
+Thanks to [@logicplace](https://github.com/logicplace)'s original [Gist](https://gist.github.com/949556).
+
+    wget https://raw.github.com/niftylettuce/gedit-icing/master/ejs.lang \
+    -O ~/.local/share/gtksourceview-2.0/language-specs/ejs.lang
+
+ Update the mime database and enjoy EJS syntax in gedit!
+ 
+    cd ~/.local/share
+    update-mime-database mime
+ 
+ This is much more enjoyable than having gedit recognize your `.ejs` files as plain ol' HTML!
+
 ## <a name="json.lang" href="#json.lang">json.lang</a>
 
-Thanks to [@creationix](https://github.com/creationix) for this!
+Thanks to [@creationix](https://github.com/creationix).
 
     wget https://github.com/creationix/gedit-stuff/raw/master/lang-specs/json.lang \
     -O ~/.local/share/gtksourceview-2.0/language-specs/json.lang
