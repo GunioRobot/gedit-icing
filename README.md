@@ -2,6 +2,7 @@
 
  Because icing on gedit tastes so much better.
  
+ * <a href="#split-view">Split View</a>
  * <a href="#json.lang">json.lang</a>
  * <a href="#styl.lang">styl.lang</a>
  * <a href="#gedit-gists">gedit-gists</a>
@@ -11,6 +12,10 @@
  * <a href="#JSHint">JSHint (TODO: [I used jshint/external tools from npm :{ )</a>
  * <a href="#Markup%20Preview">Markup Preview</a>
  * <a href="#Zoom">Zoom</a>
+ 
+## <a name="split-view" href="#split-view">Split View</a>
+
+Visit [this site](http://eldapo.lembobrothers.com/2008/07/16/gedit-plugins-split-screen/) to learn more and for the download link.
 
 ## <a name="json.lang" href="#json.lang">json.lang</a>
 
@@ -42,37 +47,7 @@ Thanks to [@creationix](https://github.com/creationix) for this!
 
 ## <a name="gedit-gists" href="#gedit-gists">gedit-gists</a>
 
- **Author:** Nick Baugh ([@niftylettuce](http://twitter.com/#!/niftylettuce)) |
- **Source:** [https://github.com/rocketraman/gist.sh](https://github.com/rocketraman/gist.sh)
-
- **Description:** Now you can Gist straight from gedit!  Default hotkey is `CTRL+SHIFT+G`.
-
- 1. Install `xclip` for clipboard copying:
-
-        sudo apt-get install xclip
-  
- 2. Install `gist.sh`:
-  
-        curl https://raw.github.com/gmarik/gist.sh/master/gist.sh > gist.sh
-        chmod 755 gist.sh
-        sudo mv gist.sh /usr/local/bin/ 
-        
- 3. Add a new entry called `gedit-gists` under `Tools -> Manage External Tools`:
-  
-        #!/bin/sh
-        cat $1 >> /tmp/$GEDIT_CURRENT_DOCUMENT_NAME
-        gist.sh -f /tmp/$GEDIT_CURRENT_DOCUMENT_NAME -p | xclip -selection clipboard
-        rm /tmp/$GEDIT_CURRENT_DOCUMENT_NAME
-        
- 4. Set External Tool Options as follows:
-
-    ![Set External Tool Options as follows](http://i.imgur.com/AqNWo.png)
-    
- 5. Open your file in gedit, then use the hotkey `CTRL+SHIFT+G` to generate and store a Gist URL to your clipboard.
- 
- 6. You can also select specific parts of a file and use the hotkey.
- 
- 7. If you would like to modify things (e.g. public vs. private gists) please view the Source link above.
+[View repository for gedit-gists](http://github.com/niftylettuce/gedit-gists)
 
 ## <a name="Inconsolata" href="#Inconsolata">Inconsolata</a>
 
